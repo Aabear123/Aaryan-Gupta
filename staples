@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial=1.0">
+    <meta name="description" content="Chess">
+
+    <title>Staples Chess Club</title>
+
+    <script src="scripts/scripts.js" defer></script>
+
+    <style>
+        #navigation {
+            text-align: center;
+            margin-top: 20px;
+        }
+        #navigation a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+    </style>
+    
+
+</head>
+
+<body>
+    <!-- overlay for mobile -->
+    <div id="overlay">
+        <div>
+            <i class="fa fa-times" title="button to close mobile navigation" onclick="off()"></i>
+        </div>
+
+    </div>
+    <header>
+        <nav class="nav full-nav">
+            
+            <div>
+                <img src="images/chess_logo.png" alt="Chess logo" style="width: 3rem;"
+                    loading="lazy">
+            </div>
+            <div id="navigation">
+                <a href="index.html">Home</a>
+                <a href="HowToPlay.html">How to Play</a>
+                <a href="openings.html">Openings</a>
+                <a href="Staples.html" >Staples Chess Club</a>
+                
+            </div>
+            
+        </nav>
+        
+
+        <!-- mobile -->
+        <nav class="nav mobile-nav">
+            
+            
+        </nav>
+    </header>
+
+    <main>
+        <div class="red-spacer"></div>
+
+        <!-- about -->
+        <div>
+            <h1>About The Staples Chess Club</h1>
+            <div class="about">
+                <img src="images/ChessTeam.png " 
+                    style="width: 35%;">
+                <div class="about-child2">
+                    <div>
+                        <h3>
+                            Council
+                        </h3>
+                        <p>
+                            President- Aaryan Gupta    
+
+                        </p>
+                        <p>
+                            Vice President - Sahil Vora
+                        </p>
+                        <p>
+                            Vice President - Evan Wallitt
+                        </p>
+                        <p>
+                            Secretary - Brady Weiner
+                        </p>
+                        <p>
+                            Treasurer - Zach
+                        </p>
+                        <p>
+                           Head of Marketing - Eli Szostak
+                        </p>
+                    </div>
+                    <div>
+                        
+                        <h2>Our Mission</h2>
+                        <p>
+                             At the Staples Chess Club, we foster a community dedicated to the timeless game of chess. Founded with a passion for promoting strategic thinking and camaraderie through chess, our club welcomes players of all ages and skill levels. Whether you're a novice looking to learn the fundamentals or a seasoned player seeking competitive challenges, our club provides a supportive environment for everyone to enjoy and improve their chess skills.
+
+We host regular meetings where members engage in friendly matches, learn new strategies, and discuss the nuances of the game. Our club also organizes tournaments, both within our community and with neighboring clubs, offering opportunities for players to test their abilities and strive for excellence.
+
+Beyond gameplay, the Staples Chess Club values sportsmanship, respect, and continuous learning. We believe in the educational benefits of chess, enhancing critical thinking, problem-solving skills, and concentration for our members. Chess enthusiasts at our club share a common passion for the game and a commitment to fostering a welcoming and inclusive atmosphere.
+
+Join us at the Staples Chess Club to explore the intricacies of chess, forge lasting friendships, and embrace the challenges and joys that come with this intellectually stimulating game.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <!-- footer -->
+    <footer>
+ 
+        
+
+    </footer>
+</body>
+
+</html>
