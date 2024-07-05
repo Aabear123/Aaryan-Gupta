@@ -1,0 +1,144 @@
+* {
+    font-family: "Baskervville", serif;
+}
+
+body {
+    background-color: #fff;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    z-index: 1;
+    height: 3rem;
+}
+
+#navigation {
+    text-align: center; /* Center aligns the text inside the div */
+    margin-top: 20px;   /* Adjust as needed */
+}
+#navigation a {
+    display: inline-block; /* Display links as block elements to apply padding and margin */
+    padding: 10px 20px; /* Adjust padding to increase the clickable area */
+    margin: 0 10px; /* Add margin between buttons */
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Text color */
+    background-color: #f0f0f0; /* Background color */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+#navigation a:hover {
+    background-color: #ccc; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+.nav {
+    background-color: #fff;
+    color: #A42920;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+.nav div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+    font-weight: bolder;
+}
+
+/* This is the for the 4 buttons on the top */
+
+.nav div:nth-child(2) a:nth-child(-n+4) {
+    color: #A42920;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
+.nav div:nth-child(1) img {
+    color: #A42920;
+    padding: 0 .1rem;
+}
+
+
+@media (max-width: 800px) {
+    .full-nav {
+        display: none;
+    }
+
+    .mobile-nav {
+        padding: 0;
+    }
+
+    .fa-bars {
+        padding: .5rem;
+    }
+}
+
+
+/* mobile overlay nav */
+
+#overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay-text a {
+    display: block;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: .5rem 2rem;
+    /* transition: all 200ms ease-in-out; */
+}
+
+.fa-times {
+    font-size: 4rem;
+    color: #fff;
+    padding: 1rem;
+    /* transition: all 200ms ease-in-out; */
+}
+
+.fa-times:hover {
+    animation: rotateAnimation 200ms ease-in-out;
+}
+
+/* animation */
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(90deg);
+    }
+}
+
+.banner img {
+    max-width: 30%; /* Ensures the image scales with its container */
+    height: auto; /* Maintains the image's aspect ratio */
+    display: block; /* Ensures the image behaves as a block element */
+    margin: 0 auto;  /*Centers the image horizontally */
+}
