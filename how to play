@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Basic Rules and Information about Chess">
+    <title>Chess Basics - Staples Chess Club</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome for icons -->
+    <style>
+        body {
+            font-family: 'Baskervville', serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background-color: #A42920;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header img {
+            width: 80px;
+            margin-right: 10px;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .nav a:hover {
+            background-color: #fff;
+            color: #A42920;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1, h2, h3 {
+            color: #A42920;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section p {
+            margin-bottom: 15px;
+        }
+
+        .section ul {
+            margin-bottom: 15px;
+            padding-left: 20px;
+        }
+
+        .section ul li {
+            margin-bottom: 5px;
+        }
+
+        .section h2::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background-color: #A42920;
+            margin-top: 10px;
+        }
+
+        .cta {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .cta a {
+            display: inline-block;
+            background-color: #A42920;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .cta a:hover {
+            background-color: #8C1E16;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="images/chess_logo.png" alt="Chess logo" loading="lazy">
+        <h1>Chess Basics</h1>
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="HowToPlay.html">How to Play</a>
+            <a href="openings.html">Openings</a>
+            <a href="Staples.html">Staples Chess Club</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section">
+            <h2>Basic Rules</h2>
+            <p>Chess is a two-player strategy board game played on an 8x8 grid called a chessboard. The game is played with 16 pieces per player, each with specific movements.</p>
+            <ul>
+                <li>Pawns move forward one square, capture diagonally.</li>
+                <li>Rooks move horizontally or vertically any number of squares.</li>
+                <li>Knights move in an "L" shape: two squares in one direction and then one square perpendicular.</li>
+                <li>Bishops move diagonally any number of squares.</li>
+                <li>Queens can move horizontally, vertically, or diagonally any number of squares.</li>
+                <li>Kings move one square in any direction.</li>
+            </ul>
+            <p>The objective is to checkmate the opponent's king, which means the king is in a position to be captured (in check) and cannot escape.</p>
+        </section>
+
+        <section class="section">
+            <h2>Chess Pieces</h2>
+            <p>Each player starts with:</p>
+            <ul>
+                <li>8 Pawns</li>
+                <li>2 Rooks</li>
+                <li>2 Knights</li>
+                <li>2 Bishops</li>
+                <li>1 Queen</li>
+                <li>1 King</li>
+            </ul>
+            <p>Pieces are placed on the board in a specific arrangement at the start of the game.</p>
+        </section>
+
+        <section class="section">
+            <h2>Strategy and Tactics</h2>
+            <p>Chess involves strategic planning and tactical maneuvers to control the board and gain advantage over the opponent. Key strategies include:</p>
+            <ul>
+                <li>Controlling the center of the board.</li>
+                <li>Developing pieces efficiently.</li>
+                <li>Creating pawn structures to support your position.</li>
+                <li>Executing effective attacks and defenses.</li>
+                <li>Understanding common tactical motifs such as forks, pins, and skewers.</li>
+            </ul>
+            <p>Studying famous games and practicing regularly are essential to improving your chess skills.</p>
+        </section>
+
+        <div class="cta">
+            <a href="HowToPlay.html">Learn More About How to Play Chess</a>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Footer content -->
+    </footer>
+
+</body>
+
+</html>
